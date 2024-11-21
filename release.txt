@@ -1,0 +1,32 @@
+ArmPi FPV ROS Melodic V1.24 - Date:2023/03/22
+
+更新日志：
+2022/04/24 by aiden
+1 修复rpi_ws281x不能适配raspberrypi v1.5的bug
+2 修复更新导致rosbridge修改被覆盖，导致app通信不稳定问题
+3 修复app阈值调试显示画面不正确问题
+4 修改配置参数为原始
+5 update && upgrade 
+
+2022/05/31 by aiden
+1 重装moveit修复moveit setup assistant无法使用问题
+2 安装joint_state_publisher_gui
+3 修改ik_transform import inverse_kinematics问题
+4 update && upgrade
+
+2022/07/19 by aiden
+1 修复上位机运行时间不符问题, 英文无法切换
+2 修改bashrc， 增加ip显示
+3 update && upgrade && gitee
+
+2022/10/26 by aiden
+1 将上位机上的舵机工具独立出来 
+2 更换为中科大源
+3 update && upgrade && gitee
+
+2023/03/22 by aiden
+1 修复缺失包sudo apt-get install libzbar0 -y
+2 update && upgrade && gitee
+
+2023/04/24
+1 增加机械臂程序
